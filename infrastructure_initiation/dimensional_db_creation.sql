@@ -1,0 +1,8 @@
+USE master;
+GO
+
+IF NOT EXISTS (SELECT name FROM sys.databases WHERE name = N'ORDER_DDS')
+BEGIN
+    CREATE DATABASE ORDER_DDS;
+END
+GO
