@@ -1,0 +1,7 @@
+[sqlserver]
+server = localhost\SQLEXPRESS
+database = ORDER_DDS
+user =
+password =
+driver = {ODBC Driver 17 for SQL Server}
+
